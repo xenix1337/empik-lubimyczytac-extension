@@ -7,7 +7,6 @@ export default defineConfig({
     name: 'Empik ↔ LubimyCzytać',
     description: 'Integracja pomiędzy sklepem Empik a portalem LubimyCzytać.',
     permissions: [
-      'storage',
       'notifications'
     ],
     host_permissions: [
@@ -24,6 +23,14 @@ export default defineConfig({
     },
     browser_action: {
       default_icon: "icon.svg"
+    },
+    browser_specific_settings: {
+      gecko: {
+        id: "empik-lubimyczytac@xenix1337",
+        data_collection_permissions: {
+          required: ["none"]
+        }
+      }
     }
   },
   webExt: {

@@ -47,7 +47,7 @@ Spakowane archiwa znajdziesz w folderze `.output/`.
    - Opis działania wtyczki.
    - Prześlij screeny z działania wtyczki na tle Empiku.
    - Załącz ikonę wtyczki i tzw. Marquee promocyjne.
-5. Uzupełnij zakładkę **Prywatność**. Rozszerzenie używa uprawnień `storage` (wymagane przez środowisko do cache'u lub zapisywania ustawień w przyszłości) oraz `notifications` (do ostrzegania o braku połączenia). Podaj te argumenty recenzentom.
+5. Uzupełnij zakładkę **Prywatność**. Rozszerzenie używa uprawnienia `notifications` do ostrzegania o braku połączenia lub weryfikacji Cloudflare. Podaj ten argument recenzentom.
 6. Prześlij rozszerzenie do weryfikacji. Wypuszczenie wersji do sklepu zajmuje zazwyczaj 2-3 dni.
 
 ### Sklep Firefox Add-ons (Mozilla)
