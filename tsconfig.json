@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "types": ["wxt/vite-builder-env"]
+  },
+  "include": [
+    ".wxt/types/**/*.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ]
+}
